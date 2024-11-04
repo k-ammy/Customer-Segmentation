@@ -1,5 +1,5 @@
 # Customer-Segmentation
-Customer Segmentation for a Subscription Service
+
 # Customer Segmentation for a Subscription Service
 
 ## Project Summary
