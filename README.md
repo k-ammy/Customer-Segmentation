@@ -15,6 +15,9 @@ This project focuses on analyzing customer data for a subscription service to id
 ### Excel
 1. Analyze customer data using pivot tables to find subscription patterns.
 1. **Data Analysis:**
+   - Data cleaning:
+   - Removal of  duplicate data
+   - Removal of empty/null data 
    - Use **Pivot Tables** to analyze customer data and find subscription patterns.
 2. Calculate the average subscription duration and identify the most popular subscription types.
    - Use the following **formulas**:
@@ -25,7 +28,7 @@ This project focuses on analyzing customer data for a subscription service to id
      - **Total Revenue by Subscription Type:**  
        `=SUMIF(subscription_type_range, type_cell, revenue_range)`
 3. Create any other interesting reports based on your findings.
-   **Additional Reports:**
+   ## **Additional Reports:**
    - Create a report detailing customer cancellations and renewals.
    - Generate a report comparing average subscription duration by type.
 
@@ -85,3 +88,21 @@ This project focuses on analyzing customer data for a subscription service to id
    FROM SubscriptionData
    GROUP BY Status;
 ```
+## Power BI
+
+### Dashboard Overview
+- Include a Customer Segmentation section to show different customer groups based on behavior.
+- Create visualizations for Cancellations vs. Renewals to highlight trends.
+- Use a pie chart to display the distribution of subscription types.
+- Incorporate line charts for average subscription duration trends over time.
+- Add interactive slicers for filtering by region, subscription type, and status.
+
+### Subdirectories
+- /excel: Store all Excel files and reports.
+- /sql: Store SQL scripts for the queries used in this project.
+- /powerbi: Store Power BI report files and dashboards.
+
+### Resources
+- Excel Guide
+- SQL Server Documentation
+- Power BI Documentation
