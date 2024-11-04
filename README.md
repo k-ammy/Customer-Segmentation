@@ -85,7 +85,8 @@ This project focuses on analyzing customer data for a subscription service to id
    FROM SubscriptionData
    GROUP BY Status;
 
-### Power BI
+### SQL
+
 1. Build a Power BI dashboard visualizing key customer segments, cancellations, and subscription trends.
    - Include slicers for interactive analysis.
 
