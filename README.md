@@ -103,6 +103,6 @@ This project focuses on analyzing customer data for a subscription service to id
 - /powerbi: Store Power BI report files and dashboards.
 
 ### Resources
-- Excel Guide
-- SQL Server Documentation
-- Power BI Documentation
+- [Excel Guide](https://support.microsoft.com/excel)
+- [SQL Server Documentation](https://docs.microsoft.com/sql/sql-server/)
+- [Power BI Documentation](https://docs.microsoft.com/power-bi/)
