@@ -84,21 +84,4 @@ This project focuses on analyzing customer data for a subscription service to id
    SELECT Status, COUNT(CustomerID) AS TotalSubscriptions
    FROM SubscriptionData
    GROUP BY Status;
-
-### SQL
-
-1. Build a Power BI dashboard visualizing key customer segments, cancellations, and subscription trends.
-   - Include slicers for interactive analysis.
-
--Dashboard Overview:
-
-- Include a Customer Segmentation section to show different customer groups based on behavior.
-- Create visualizations for Cancellations vs. Renewals to highlight trends.
-- Use a pie chart to display the distribution of subscription types.
-- Incorporate line charts for average subscription duration trends over time.
-- Add interactive slicers for filtering by region, subscription type, and status.
-
-## Resources
-- [Excel Guide](https://support.microsoft.com/excel)
-- [SQL Server Documentation](https://docs.microsoft.com/sql/sql-server/)
-- [Power BI Documentation](https://docs.microsoft.com/power-bi/)
+```
